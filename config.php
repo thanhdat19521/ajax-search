@@ -2,7 +2,7 @@
   const DBHOST = 'localhost';        // Tên máy chủ cơ sở dữ liệu
   const DBUSER = 'root';             // Tên người dùng MySQL
   const DBPASS = '';                 // MySQL Password
-  const DBNAME = 'du_an_mau';  // MySQL Password
+  const DBNAME = 'database';  // MySQL Password
 
   // Mạng nguồn dữ liệu
   $dsn = 'mysql:host=' . DBHOST . ';dbname=' . DBNAME . '';
