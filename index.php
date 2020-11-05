@@ -14,7 +14,7 @@
         <div class="input-group">
             <input type="text" name="search" id="search" class="form-control form-control-lg rounded-0 border-info" placeholder="Search..." autocomplete="off" required>
             <input type="submit" name="submit" value="Search" class="btn btn-info btn-lg rounded-0"></div>
-        <div id="show-list">
+        <div id="show-list"> 
                 <!-- kết quả của ajax -->
         </div>
     </form>
