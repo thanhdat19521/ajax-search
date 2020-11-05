@@ -6,7 +6,7 @@
     $sql = 'SELECT name_product FROM product WHERE name_product LIKE :country';
     $stmt = $conn->prepare($sql);
     $stmt->execute(['country' => '%' . $inpText . '%']);
-    $result = $stmt->fetchAll();
+    $result = $stmt->fetchAll(); 
 
     if ($result) {
       foreach ($result as $row) {
